@@ -34,7 +34,7 @@ def get_db(dbname):
     return oursql.connect(
         db='%s_p' % dbname,
         host=host,
-        read_defaults_file=os.path.expanduser('~/replica.my.cnf')
+        read_default_file=os.path.expanduser('~/replica.my.cnf')
     )
 
 
