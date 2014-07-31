@@ -1,0 +1,3 @@
+# m h  dom mon dow   command
+*/20 * * * * jsub -N monitor-py -once -quiet -mem 500M /usr/bin/python /data/project/gblrenamemon/src/monitor.py
+
